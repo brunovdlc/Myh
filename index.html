@@ -385,41 +385,41 @@ const Restaurants = () => {
 const Movies = () => {
     const getMovies = () => {
         return [{
-                desc: "xD",
+                desc: "",
                 id: 1,
                 icon: "",
                 image: "https://i.imgur.com/EzmOxBZ.gif?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFydmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-                title: "🐵🙈🙉"
+                title: "🥰"
             }, {
-                desc: "xD",
+                desc: "",
                 id: 2,
                 icon: "",
                 image: "https://i.imgur.com/25v8hr2.gif?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9yZCUyMG9mJTIwdGhlJTIwcmluZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                title: "🐵🙈🙉"
+                title: "🤡"
             }, {
-                desc: "xD",
+                desc: "",
                 id: 3,
                 icon: "",
                 image: "https://i.imgur.com/7Z4561k.gif?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhcnJ5JTIwcG90dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-                title: "🐵🙈🙉"
+                title: "😋"
             }, {
-                desc: "xD”..",
+                desc: "",
                 id: 4,
                 icon: "",
                 image: "https://i.imgur.com/FdOqmhW.gif?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhciUyMHdhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                title: "🐵🙈🙉"
+                title: "🥵"
                 }, {
-                desc: "xD",
+                desc: "",
                 id: 4,
                 icon: "",
                 image: "https://i.imgur.com/xD6VAmX.gif?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhciUyMHdhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                title: "🐵🙈🙉"
+                title: "🔥"
                 }, {
-                desc: "xD",
+                desc: "",
                 id: 4,
                 icon: "",
-                image: "https://i.imgur.com/NIz5xMi.gif?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhciUyMHdhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                title: "🐵🙈🙉"
+                image: "https://i.imgur.com/6zpOSjZ.gif?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhciUyMHdhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                title: "🍃"
             }].map((movie) => {
             const styles = {
                 backgroundImage: `url(${movie.image})`
@@ -434,7 +434,7 @@ const Movies = () => {
                     React.createElement("i", { className: movie.icon }))));
         });
     };
-    return (React.createElement(MenuSection, { icon: "fa-solid fa-camera-movie", id: "movies-section", scrollable: true, title: "Maquina do Tempo" }, getMovies()));
+    return (React.createElement(MenuSection, { icon: "fa-solid fa-camera-movie", id: "movies-section", scrollable: true, title: "Meu horizonte não tem limites." }, getMovies()));
 };
 const UserStatusButton = (props) => {
     const { userStatus, setUserStatusTo } = React.useContext(AppContext);
@@ -455,10 +455,10 @@ const Menu = () => {
                     React.createElement("div", { className: "app-menu-content-header-section" },
                         React.createElement(UserStatusButton, { icon: "fa-solid fa-arrow-right-from-arc", id: "sign-out-button", userStatus: UserStatus.LoggedOut }))),
                 React.createElement(QuickNav, null),
-                React.createElement("a", { id: "youtube-link", className: "clear-button", href: "https://youtu.be/OYslrE-QbJo", target: "_blank" },
+                React.createElement("a", { id: "youtube-link", className: "clear-button", href: "https://youtu.be/CUFMfGu1yQc", target: "_blank" },
                     React.createElement("i", { className: "fa-brands fa-youtube" }),
                     React.createElement("span", null, "Musica Favorita")),
-                 React.createElement("a", { id: "youtube-link", className: "clear-button", href: "https://xat.me/BrunoT1234", target: "_blank" },
+                 React.createElement("a", { id: "youtube-link", className: "clear-button", href: "https://brunovdlc.github.io/xatspaceBrunoT/", target: "_blank" },
                     React.createElement("i", { className: "fa-solid fa-star-sharp-half-stroke" }),
                     React.createElement("span", null, "Créditos")),
                 React.createElement(Weather, null),
@@ -499,10 +499,6 @@ const App = () => {
 ReactDOM.render(React.createElement(App, null), document.getElementById("root"));
 //# sourceURL=pen.js
     </script>
-
-<footer>
-    <p>&copy; Nome da Corporação. Desenvolvido por Nome do Editor.</p>
-</footer>
 
 
 </body>
